@@ -1,5 +1,5 @@
 // Función: lee el nombre y lo muestra
-function mostrarNombre() {
+function mostrarNombre() { <
 
     //reto 3
     const nombre = localStorage.getItem("usuario");  // lee de la bodega
