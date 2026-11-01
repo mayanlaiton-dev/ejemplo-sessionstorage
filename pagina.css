@@ -3,7 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 20px; 
   padding: 20px;
   box-sizing: border-box;
   min-height: 100vh;   /* para que el fondo cubra toda la pantalla */
