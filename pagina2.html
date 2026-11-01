@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina 2</title>
+    <script src="JS/pagina2.js" defer></script>
+    <link rel="stylesheet" href="pagina2.css">
+</head>
+<body>
+    <h1>pagina2</h1>
+    <p id="saludo"></p>
+    <button id="btn-borrar">Borrar datos</button>
+    <a href="index.html">Volver a la pagina 1</a>
+   <section>
+    <h2>Respuestas a las preguntas de reflexión</h2>
+    <ol>
+        <li>Porque sessionStorage comparte los datos entre las páginas del sitio dentro de la misma pestaña, por lo que la página 2 puede leer la información guardada previamente.</li>
+        <li>Devuelve <code>null</code>. Si no se revisara con un if, la página intentaría procesar un valor vacío o nulo, lo que podría generar errores en la ejecución.</li>
+        <li>Recargar la página mantiene el almacenamiento porque sigues en la misma pestaña; en cambio, cerrar la pestaña elimina por completo los datos de sessionStorage.</li>
+        <li>No, porque cualquier persona puede ver o modificar los datos directamente desde la consola del navegador, lo que la hace insegura para información privada o contraseñas.</li>
+    </ol>
+</section> 
+</body>
+</html>

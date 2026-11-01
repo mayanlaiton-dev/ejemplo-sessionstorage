@@ -1,0 +1,32 @@
+body {
+  background-color: #e8f5e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 100vh;   /* para que el fondo cubra toda la pantalla */
+}
+
+form {
+  display: flex;
+  flex-direction: column;   /* campos uno debajo del otro */
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+}
+
+label {
+  color: #1b7a2f;
+}
